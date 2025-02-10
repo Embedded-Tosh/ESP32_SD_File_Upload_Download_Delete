@@ -1,0 +1,84 @@
+ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+li {
+    margin: 5px 0;
+}
+
+button {
+    cursor: pointer;
+    margin-right: 5px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+button.delete {
+    background: #DC3545;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+.upload-container {
+    margin-top: 10px;
+    display: none;
+}
+
+input[type="text"],
+input[type="file"] {
+    padding: 5px;
+    margin-right: 5px;
+    margin-left: 20px;
+}
+
+.progress-bar {
+    width: 100%;
+    background-color: #f3f3f3;
+    border: 1px solid #ddd;
+    margin-top: 5px;
+    display: none;
+}
+
+.progress {
+    height: 10px;
+    width: 0;
+    background-color: #4CAF50;
+}
+
+.progress-info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    padding-top: 5px;
+    margin-left: 20px;
+}
+
+.progress-info span {
+    color: #333;
+}
+
+.remove-folder-btn {
+    margin-left: 20px;
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- <meta charset="UTF-8"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Manager</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="fileUI.js"></script>
+</head>
+
+<body>
+    <h1>File Manager</h1>
+    <button id="fetch-data-button">Fetch File List</button>
+    <div id="loading" style="display: none;">Loading...</div>
+    <div id="nested-container"></div>
+</body>
+<script>
+    wsConnect();
+</script>
+
+</html>
